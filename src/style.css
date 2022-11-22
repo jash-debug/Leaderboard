@@ -12,7 +12,7 @@ ul[role='list'] {
 }
 
 ul[role='list'] :nth-child(even) {
-    background-color: rgba(168, 166, 166, 0.745);
+  background-color: rgba(168, 166, 166, 0.745);
 }
 
 html:focus-within {
@@ -28,7 +28,7 @@ body {
 }
 
 div {
-    justify-content:  space-between;
+  justify-content: space-between;
 }
 
 main {
@@ -48,15 +48,15 @@ section {
 }
 
 .recent-scores > div {
-    display: flex;
-    padding-bottom: 20px;
+  display: flex;
+  padding-bottom: 20px;
 }
 
 .button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 form > * {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
