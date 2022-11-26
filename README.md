@@ -1,31 +1,117 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Leaderboard
+<div align="center">
 
-> This project is a Leaderboard application built using Webpack.
-- The project has used the leaderboard API to store and get data.
-- Added styling to improve the look of the leaderboard.
+  <img src="https://github.com/jash-debug/Readme-new-template/blob/master/murple_logo.png?raw=true" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Live Demo
-[Click for the live link](https://jash-debug.github.io/Leaderboard/dist/)
+  <h3><b>Microverse README Template</b></h3>
 
-## Built With
+</div>
 
-- HTML5
-- CSS3
-- JavaScript
-- Webpack
+<!-- TABLE OF CONTENTS -->
 
-## Getting Started
+# 📗 Table of Contents
 
-To get a local copy up and running follow these simple example steps.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Leaderboard Application\] ](#-leaderboard-application-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Leaderboard Application] <a name="about-project"></a>
+
+**[Leaderboard Application]** is an application built using Webpack, That get or saves scores for a game created by you from the Leaderboard Api.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>Node</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Webpack</li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>Leaderboard Api</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Leaderboard_Api]**
+- **[Webpack]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://jash-debug.github.io/Leaderboard/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
+In order to run this project you need:
 
 - A web browser 
 - A code editor
 
 ### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
 
 Assuming you have git installed on your computer, please follow the steps below: 
 - Create a folder
@@ -34,24 +120,96 @@ Assuming you have git installed on your computer, please follow the steps below:
  
 - You will now be able to check the project with your code editor.
 
-## Authors
+### Usage
+
+To run the project, execute the following command:
+
+- npm start
+
+### Run tests
+
+To run tests, run the following command:
+
+- npm test
+
+### Deployment
+
+You can deploy this project using:
+
+- github pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Ahmed Najash**
 
-- GitHub: [@jash-debug](https://github.com/jash-debug)
-- Twitter: [@ahmed_najash](https://twitter.com/ahmed_najash)
-- LinkedIn: [Ahmed Najash](https://www.linkedin.com/in/ahmed-najash-286a671ab/)
+- GitHub: [@githubhandle](https://github.com/jash-debug)
+- Twitter: [@twitterhandle](https://twitter.com/ahmed_najash)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ahmed-najash-286a671ab)
 
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add Clear Button]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
 
-## Show your support
+Feel free to check the [issues page](https://github.com/jash-debug/Readme-new-template/issues).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give a 🌟.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for a good documentation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+- **[how to set up]**
+
+  - [Create a new game token from gameboard api]
+
+- **[How to start the app]**
+
+  - [run npm start]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
