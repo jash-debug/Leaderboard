@@ -4,6 +4,7 @@
 
 > This project is a Leaderboard application built using Webpack.
 - The project has used the leaderboard API to store and get data.
+- Added styling to improve the look of the leaderboard.
 
 ## Live Demo
 [Click for the live link](https://jash-debug.github.io/Leaderboard/dist/)
