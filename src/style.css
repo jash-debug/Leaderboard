@@ -19,44 +19,119 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+h1,
+h2 {
   margin: 0;
-  padding: 50px;
+}
+
+body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightgrey;
 }
 
 div {
   justify-content: space-between;
 }
 
-main {
-  display: flex;
-  gap: 30%;
-  width: 70%;
+input,
+button {
+  font: inherit;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+button,
+input[type="submit"] {
+  background-color: #4fc4cf;
+  padding: 10px;
+  color: #fffffe;
+  border: none;
+}
+
+input[type="text"] {
+  background-color: #f3d0ce;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
 }
 
 section {
-  flex: 1;
+  background-color: #f6efef;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
 }
 
 .add-score > form {
   display: flex;
+  order: 0;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.recent-scores > div {
-  display: flex;
-  padding-bottom: 20px;
+#submit-btn {
+  align-self: flex-end;
 }
 
-.button {
+.recent-scores {
+  order: 1;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recent-scores > header {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
   align-items: center;
 }
 
-form > * {
-  margin-bottom: 10px;
+@media screen and (min-width: 768px) {
+  body {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  main {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section {
+    flex: 1;
+  }
+
+  .add-score {
+    order: 1;
+  }
 }
